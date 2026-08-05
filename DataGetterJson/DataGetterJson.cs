@@ -10,7 +10,7 @@ namespace cAlgo.Robots;
 [Robot(TimeZone = TimeZones.UTC, AccessRights = AccessRights.FullAccess)]
 public partial class DataGetterJson : Robot
 {
-    [Parameter("Save folder", DefaultValue = @"C:\Users\vpino\Documents\cTrader\CandleData")]
+    [Parameter("Save folder", DefaultValue = @"C:\Users\Documents\cTrader\CandleData")]
     public string SaveFolder { get; set; } = string.Empty;
 
     private StreamWriter? _writer;
